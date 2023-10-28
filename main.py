@@ -44,7 +44,7 @@ def console_app():
     time.sleep(1.25)
     os.system(f'mkdir {dir}\{name}')
     time.sleep(2.55)
-    with open(f'{dir}{name}\main.py', "w") as file, open('templates.datas\simple_console_code', "r") as console_sim_code:
+    with open(f'{dir}{name}\main.py', "w") as file, open('py-ProjectCreationTool.data\Templates.datas\simple_console_code', "r") as console_sim_code:
         code = console_sim_code.read()
         file.write(code)
         
